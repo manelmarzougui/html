@@ -1,30 +1,54 @@
-<html>
-    <head>
-        <title>hello </title>
-        <body>
-            <select>
-                <h1>hello </h1>
-            </select>
-            <table>
-                <tr>
-                  <td>manel</td>
-                  <td>27</td>
-                </tr>
-                <tr>
-                  <td>arij</td>
-                  <td>27</td>
-                </tr>
-              </table>
-        </body>
-        <viedeo>
-            <source src=test.mp4 type=vidéo.mp4>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>workshop</title>
+</head>
+<body>
+    <header>
+        <img src="data:image/png;base64,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" alt="logo"/>
+        <a href="https://www.youtube.com/">home</a>
+        <input placehorlder="search" value="gomycode" type="button"/>
+    </header>
+    <div>
+        <h1>hello world</h1>
+        <h3>hello world</h3>
+        <h6>hello world</h6>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab rerum totam, esse nemo dolor alias. Recusandae atque, voluptates pariatur maxime nostrum dicta ad ullam libero assumenda in. Voluptates, nostrum error.</p>
+        <span>hjkjklkl</span>
 
-        </viedeo>
-        <a href="url">link text</a>
+
+
+        <ol>
+            <li>,lklkkjjj</li>
+            <li>fhdfkf</li>
+            <li>dd12365</li>
+        
+        </ol>
         <ul>
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-          </ul>
-    </head>
+            <li>frdt</li>
+            <li>****</li>
+            <li>hdgtgf22</li>
+        </ul>
+        <table>
+            <th>hello</th>
+            <th>hello</th>
+            <th>hello</th>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </table>
+        <infrone><iframe width="560" height="315" src="https://www.youtube.com/embed/C3rDfnsSGT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></infrone>
+        <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+        </select>
+    </div>
+</body>
 </html>
